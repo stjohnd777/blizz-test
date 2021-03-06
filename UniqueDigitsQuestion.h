@@ -12,18 +12,18 @@
 namespace dsj {
 
     namespace optimized {
-        unsigned int DigitAt(unsigned long integer, int n);
-        bool hasUniqueDigits(unsigned long candidate);
+        unsigned int GetDigitAt(unsigned long integer, int n);
+        bool IsUniqueDigits(unsigned long candidate);
     }
 
     namespace division {
-        unsigned int DigitAt(unsigned long integer);
-        unsigned int IntLen(unsigned long integer);
+        unsigned int GetDigitAt(unsigned long integer);
+        unsigned int DigitLength(unsigned long integer);
     }
 
     namespace str {
-        unsigned int IntLen(unsigned long integer);
-        unsigned int DigitAt(unsigned long integer, int n);
-        bool hasUniqueDigits(unsigned long candidate);
+        unsigned int DigitLength(unsigned long integer);
+        unsigned int GetDigitAt(unsigned long integer, int n);
+        bool AtUniqueDigits(unsigned long candidate);
     }
 }

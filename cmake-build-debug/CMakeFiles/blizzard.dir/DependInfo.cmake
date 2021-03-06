@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/overman/CLionProjects/blizzard/UniqueDigitsQuestion.cpp" "/Users/overman/CLionProjects/blizzard/cmake-build-debug/CMakeFiles/blizzard.dir/UniqueDigitsQuestion.cpp.o"
-  "/Users/overman/CLionProjects/blizzard/main.cpp" "/Users/overman/CLionProjects/blizzard/cmake-build-debug/CMakeFiles/blizzard.dir/main.cpp.o"
-  "/Users/overman/CLionProjects/blizzard/test/TimeMetric.cpp" "/Users/overman/CLionProjects/blizzard/cmake-build-debug/CMakeFiles/blizzard.dir/test/TimeMetric.cpp.o"
+  "C:/dev/github/blizz-test/UniqueDigitsQuestion.cpp" "C:/dev/github/blizz-test/cmake-build-debug/CMakeFiles/blizzard.dir/UniqueDigitsQuestion.cpp.obj"
+  "C:/dev/github/blizz-test/main.cpp" "C:/dev/github/blizz-test/cmake-build-debug/CMakeFiles/blizzard.dir/main.cpp.obj"
+  "C:/dev/github/blizz-test/test/TimeMetric.cpp" "C:/dev/github/blizz-test/cmake-build-debug/CMakeFiles/blizzard.dir/test/TimeMetric.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

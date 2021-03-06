@@ -19,10 +19,10 @@ int main() {
     long counter0 =0;
     dsj::utils::TimeMetrics::Start("opt");
     for (unsigned long i = 0; i <= 9876543210; i++) {
-        auto b = dsj::optimized::hasUniqueDigits(i);
+        auto b = dsj::optimized::IsUniqueDigits(i);
         if ( b) {
             counter0++;
-            std::cout <<  (double)i/(double)9876543210 * 100.0 << "% hasUniqueDigits(" << i << ") =" << b << std::endl;
+            std::cout <<  (double)i/(double)9876543210 * 100.0 << "% IsUniqueDigits(" << i << ") =" << b << std::endl;
         }
     }
     dsj::utils::TimeMetrics::Stop("opt");
@@ -30,10 +30,10 @@ int main() {
     long counter1 =0;
     dsj::utils::TimeMetrics::Start("str");
     for (unsigned long i = 0; i  <= 9876543210; i++) {
-        auto b = dsj::str::hasUniqueDigits(i);
+        auto b = dsj::str::AtUniqueDigits(i);
         if ( b) {
             counter1++;
-            std::cout <<   (double)i/(double)9876543210 * 100.0 << "% hasUniqueDigits(" << i << ") =" << b << std::endl;
+            std::cout <<   (double)i/(double)9876543210 * 100.0 << "% IsUniqueDigits(" << i << ") =" << b << std::endl;
         }
     }
     dsj::utils::TimeMetrics::Stop("str");

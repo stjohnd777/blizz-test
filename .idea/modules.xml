@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../blizzard/.idea/blizard.iml" filepath="$PROJECT_DIR$/../blizzard/.idea/blizard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/blizz-test.iml" filepath="$PROJECT_DIR$/.idea/blizz-test.iml" />
     </modules>
   </component>
 </project>

@@ -4,154 +4,162 @@
 	<Project>
 		<Option title="blizzard"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="msvc8"/>
 		<Option virtualFolders="CMake Files\;CMake Files\test\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/overman/CLionProjects/blizzard/cmake-build-debug"/>
+				<Option working_dir="C:/dev/github/blizz-test/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/overman/CLionProjects/blizzard/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/overman/CLionProjects/blizzard/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="blizzard">
-				<Option output="/Users/overman/CLionProjects/blizzard/cmake-build-debug/blizzard" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/overman/CLionProjects/blizzard/cmake-build-debug"/>
+				<Option output="C:/dev/github/blizz-test/cmake-build-debug/blizzard.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/dev/github/blizz-test/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 blizzard"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 blizzard"/>
+					<CompileFile command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="blizzard/fast">
-				<Option output="/Users/overman/CLionProjects/blizzard/cmake-build-debug/blizzard" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/overman/CLionProjects/blizzard/cmake-build-debug"/>
+				<Option output="C:/dev/github/blizz-test/cmake-build-debug/blizzard.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/dev/github/blizz-test/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 blizzard/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 blizzard/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/dev/github/blizz-test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/dev/github/blizz-test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Question1Test">
-				<Option output="/Users/overman/CLionProjects/blizzard/cmake-build-debug/test/Question1Test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/overman/CLionProjects/blizzard/cmake-build-debug/test"/>
+				<Option output="C:/dev/github/blizz-test/cmake-build-debug/test/Question1Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/dev/github/blizz-test/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 Question1Test"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\test\Makefile VERBOSE=1 Question1Test"/>
+					<CompileFile command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\test\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\test\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\test\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Question1Test/fast">
-				<Option output="/Users/overman/CLionProjects/blizzard/cmake-build-debug/test/Question1Test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/overman/CLionProjects/blizzard/cmake-build-debug/test"/>
+				<Option output="C:/dev/github/blizz-test/cmake-build-debug/test/Question1Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/dev/github/blizz-test/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 Question1Test/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/overman/CLionProjects/blizzard/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\test\Makefile VERBOSE=1 Question1Test/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\test\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\test\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\dev\github\blizz-test\cmake-build-debug\test\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/overman/CLionProjects/blizzard/SortQuestion.h">
+		<Unit filename="C:/dev/github/blizz-test/SortQuestion.h">
 			<Option target="blizzard"/>
 		</Unit>
-		<Unit filename="/Users/overman/CLionProjects/blizzard/UniqueDigitsQuestion.cpp">
-			<Option target="blizzard"/>
-			<Option target="Question1Test"/>
-		</Unit>
-		<Unit filename="/Users/overman/CLionProjects/blizzard/UniqueDigitsQuestion.h">
-			<Option target="blizzard"/>
-		</Unit>
-		<Unit filename="/Users/overman/CLionProjects/blizzard/main.cpp">
-			<Option target="blizzard"/>
-		</Unit>
-		<Unit filename="/Users/overman/CLionProjects/blizzard/test/TimeMetric.cpp">
+		<Unit filename="C:/dev/github/blizz-test/UniqueDigitsQuestion.cpp">
 			<Option target="blizzard"/>
 			<Option target="Question1Test"/>
 		</Unit>
-		<Unit filename="/Users/overman/CLionProjects/blizzard/test/TimeMetric.hpp">
+		<Unit filename="C:/dev/github/blizz-test/UniqueDigitsQuestion.h">
+			<Option target="blizzard"/>
+		</Unit>
+		<Unit filename="C:/dev/github/blizz-test/main.cpp">
+			<Option target="blizzard"/>
+		</Unit>
+		<Unit filename="C:/dev/github/blizz-test/test/TimeMetric.cpp">
+			<Option target="blizzard"/>
 			<Option target="Question1Test"/>
 		</Unit>
-		<Unit filename="/Users/overman/CLionProjects/blizzard/test/UniqueDigitsTest.cpp">
+		<Unit filename="C:/dev/github/blizz-test/test/TimeMetric.hpp">
 			<Option target="Question1Test"/>
 		</Unit>
-		<Unit filename="/Users/overman/CLionProjects/blizzard/test/catch.hpp">
+		<Unit filename="C:/dev/github/blizz-test/test/UniqueDigitsTest.cpp">
 			<Option target="Question1Test"/>
 		</Unit>
-		<Unit filename="/Users/overman/CLionProjects/blizzard/CMakeLists.txt">
+		<Unit filename="C:/dev/github/blizz-test/test/catch.hpp">
+			<Option target="Question1Test"/>
+		</Unit>
+		<Unit filename="C:/dev/github/blizz-test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/overman/CLionProjects/blizzard/test/CMakeLists.txt">
+		<Unit filename="C:/dev/github/blizz-test/test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\"/>
 		</Unit>
 	</Project>

@@ -14,17 +14,21 @@
 #include <set>
 namespace dsj {
 
+    const unsigned long MAX_BASE10_UNIQUE_DIGITS = 9876543210;
+
+
     namespace optimized {
 
-        unsigned int DigitAt(unsigned long integer, int n) {
-            static unsigned long tens[] = {1, 10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000, 1000000000};
-            integer = integer / tens[n];
+        unsigned int GetDigitAt(unsigned long integer, int n) {
+
+            //static unsigned long tens[] = {1, 10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000, 1000000000};
+            integer = integer / 10 ^ n ; // std::pow(10,n); //tens[n];
             auto digit = (integer % 10);
             return digit;
         }
 
-        bool hasUniqueDigits(unsigned long candidate) {
-            static unsigned long tens[] = {1, 10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000, 1000000000};
+        bool IsUniqueDigits(unsigned long candidate) {
+            //static unsigned long tens[] = {1, 10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000, 1000000000};
             bool isUniqueSequence = true;
             if (candidate <= 9876543210) {// 9876543210 largest;
                 // we have then symbols {0,1...9}, keep a registry if
@@ -33,7 +37,7 @@ namespace dsj {
                 registry.fill(false);
                 // loop over each digit
                 for (int index = 0; index < 10; index++) {
-                    auto integer = candidate / tens[index];
+                    auto integer = candidate / 10 ^ index; //std::pow(10,index) ; //tens[index];
                     if (integer == 0) {
                         // we have run out digits
                         break;
@@ -66,7 +70,7 @@ namespace dsj {
             return digit;
         }
 
-        unsigned int IntLen(unsigned long integer) {
+        unsigned int DigitLength(unsigned long integer) {
             int len = 1;
             integer = integer / 10;
             while (integer > 0) {
@@ -79,18 +83,18 @@ namespace dsj {
 
     namespace str {
 
-        unsigned int IntLen(unsigned long integer) {
+        unsigned int DigitLength(unsigned long integer) {
             auto s = std::to_string(integer);
             return s.length();
         }
 
-        unsigned int DigitAt(unsigned long integer, int n) {
+        unsigned int GetDigitAt(unsigned long integer, int n) {
             auto s = std::to_string(integer);
             reverse(s.begin(), s.end());
             return (s[n] - 48);
         }
 
-        bool hasUniqueDigits(unsigned long candidate) {
+        bool AtUniqueDigits(unsigned long candidate) {
             if (candidate > 9876543210) return false;
             auto s = std::to_string(candidate);
             std::set<char> s2(s.begin(), s.end());

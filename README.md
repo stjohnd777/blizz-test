@@ -1,7 +1,6 @@
-# blizz-test
-blizzard code assignment 
+# Blizzard Code Assignment 
 
-Hearthstone Engineering Test
+## Hearthstone Engineering Test
 
 - Please send back your solutions as source files attached to your email.  
 - You may use either C++ or C#, whichever you feel the most comfortable in.  
