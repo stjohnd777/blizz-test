@@ -4,6 +4,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_subdirectory(test)
 
-add_executable(blizzard UniqueDigitsQuestion.h UniqueDigitsQuestion.cpp SortQuestion.h ./test/TimeMetric.cpp  main.cpp)
+add_executable(blizzard UniqueDigits.h UniqueDigits.cpp DefinedSort.h ./test/TimeMetric.cpp  main.cpp)
 
 

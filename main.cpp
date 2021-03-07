@@ -1,10 +1,7 @@
 #include <iostream>
-#include <array>
-#include <set>
-#include <algorithm>
 
-#include "UniqueDigitsQuestion.h"
-#include "SortQuestion.h"
+#include "UniqueDigits.h"
+#include "DefinedSort.h"
 
 #include "./test/TimeMetric.hpp"
 #include <iostream>
@@ -18,8 +15,8 @@ int main() {
 
     long counter0 =0;
     dsj::utils::TimeMetrics::Start("opt");
-    for (unsigned long i = 0; i <= 9876543210; i++) {
-        auto b = dsj::optimized::IsUniqueDigits(i);
+    for (unsigned long i = 0; i <= 9876543210/3; i++) {
+        auto b = dsj::optimized::AllDigitsUnique(i);
         if ( b) {
             counter0++;
             std::cout <<  (double)i/(double)9876543210 * 100.0 << "% IsUniqueDigits(" << i << ") =" << b << std::endl;
@@ -29,8 +26,8 @@ int main() {
 
     long counter1 =0;
     dsj::utils::TimeMetrics::Start("str");
-    for (unsigned long i = 0; i  <= 9876543210; i++) {
-        auto b = dsj::str::AtUniqueDigits(i);
+    for (unsigned long i = 0; i  <= 9876543210 /3; i++) {
+        auto b = dsj::str::AllDigitsUnique(i);
         if ( b) {
             counter1++;
             std::cout <<   (double)i/(double)9876543210 * 100.0 << "% IsUniqueDigits(" << i << ") =" << b << std::endl;
