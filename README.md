@@ -4,9 +4,9 @@
 ---
 - #### Some Remark 
     - The build system is cmake. 
-    - The Unit Test frame ork is Catch2 a header only. 
-    - The TimeMetric class is not part of the code base but provided to give timing stats, and this class came from my Utilities on GitHub. 
-    - The reader should be able to use any IDE with CMake to run the unit test. There is a main method provided just in case cmake goes wrong.
+    - The Unit Test frame ork is Catch2. 
+    - The TimeMetric class is not part of the test  but provided to give timing stats. 
+    - The reader should be able to use any IDE with CMake to run the unit test.
 ---
 
 #### Hearthstone Engineering Test
