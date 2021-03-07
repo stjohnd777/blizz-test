@@ -350,7 +350,6 @@ select deck.player_id, def.card_name
 
 ###### Answer 3c.1 Average Players Deck Size
 ```
-select avg(dt.active_cards) from
 select avg(dt.active_cards) as average_deck_size from
    (
        select deck.player_id, count(deck.player_id) as active_cards
@@ -385,19 +384,44 @@ select deck.player_id, count(deck.player_id) as active_cards
 -	###### 3c.2  Find out which card is being deleted the most by all players and find an average time it takes for such card to be deleted by players. 
 
 ###### Answer 3c.2 
-```
-   select deck.player_id, count(deck.player_id)
-   from blizzard.player_deck as deck,
-        blizzard.card_definitions_simple as def
-   where deck.deleted = 0
-     and def.id = deck.card_id
-     and deck.player_id =3 
-```
 
-     
-     
+```
+   select deck.card_id, count(deck.card_id) as deleted_card_count
+   from player_deck as deck
+   where deck.deleted = 1
+   GROUP by deck.card_id
+   order by deleted_card_count DESC  LIMIT 1;
+```
+The above return the card id and the number of deletes
 
- 
+| card_id | number_deletes|
+| --- | ----------- |
+3005|3
+
+Then getting the max value
+```
+select  max(del.deleted_card_count) as m from (
+          select deck.card_id, count(deck.card_id) as deleted_card_count
+          from player_deck as deck
+          where deck.deleted = 1
+          GROUP by deck.card_id
+                  ) as del
+```
+|   number_deletes|
+|   ----------- |
+3|
+And the Card Id
+
+For the average delete time I need to add create time and delete time
+![alt text](img/addtime.png)  
+
+Knowing the card id above
+```
+select  avg(time_deleted-created) from player_deck where card_id = 3005
+```
+ |  avg(time_deleted-created)|
+ |   ----------- |
+ 1666908.0000|
  
 
  
