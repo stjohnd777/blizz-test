@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/overman/CLionProjects/blizzard/DefinedSort.h
+/Users/overman/CLionProjects/blizzard/question2/DefinedSort.h
 string
 -
 algorithm
@@ -15,8 +15,8 @@ algorithm
 /Users/overman/CLionProjects/blizzard/test/TestDefinedSort.cpp
 catch.hpp
 /Users/overman/CLionProjects/blizzard/test/catch.hpp
-../DefinedSort.h
-/Users/overman/CLionProjects/blizzard/DefinedSort.h
+../question2/DefinedSort.h
+/Users/overman/CLionProjects/blizzard/question2/DefinedSort.h
 utils/TimeMetric.hpp
 /Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.hpp
 iostream
@@ -604,18 +604,6 @@ ctime
 algorithm
 -
 cassert
--
-
-/Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.cpp
-TimeMetric.hpp
-/Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.hpp
-vector
--
-map
--
-chrono
--
-algorithm
 -
 
 /Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.hpp

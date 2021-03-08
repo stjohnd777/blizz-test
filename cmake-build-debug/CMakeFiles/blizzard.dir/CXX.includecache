@@ -6,15 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/overman/CLionProjects/blizzard/DefinedSort.h
-string
+/Users/overman/CLionProjects/blizzard/main.cpp
+iostream
 -
-algorithm
+question1/UniqueDigits.h
+/Users/overman/CLionProjects/blizzard/question1/UniqueDigits.h
+question2/DefinedSort.h
+/Users/overman/CLionProjects/blizzard/question2/DefinedSort.h
+test/utils/TimeMetric.hpp
+/Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.hpp
+iostream
 -
 
-/Users/overman/CLionProjects/blizzard/UniqueDigits.cpp
+/Users/overman/CLionProjects/blizzard/question1/UniqueDigits.cpp
 UniqueDigits.h
-/Users/overman/CLionProjects/blizzard/UniqueDigits.h
+/Users/overman/CLionProjects/blizzard/question1/UniqueDigits.h
 algorithm
 -
 iostream
@@ -24,23 +30,17 @@ array
 set
 -
 
-/Users/overman/CLionProjects/blizzard/UniqueDigits.h
+/Users/overman/CLionProjects/blizzard/question1/UniqueDigits.h
 
-/Users/overman/CLionProjects/blizzard/main.cpp
-iostream
+/Users/overman/CLionProjects/blizzard/question2/DefinedSort.h
+string
 -
-UniqueDigits.h
-/Users/overman/CLionProjects/blizzard/UniqueDigits.h
-DefinedSort.h
-/Users/overman/CLionProjects/blizzard/DefinedSort.h
-./test/TimeMetric.hpp
-/Users/overman/CLionProjects/blizzard/test/TimeMetric.hpp
-iostream
+algorithm
 -
 
-/Users/overman/CLionProjects/blizzard/test/TimeMetric.cpp
+/Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.cpp
 TimeMetric.hpp
-/Users/overman/CLionProjects/blizzard/test/TimeMetric.hpp
+/Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.hpp
 vector
 -
 map
@@ -50,7 +50,7 @@ chrono
 algorithm
 -
 
-/Users/overman/CLionProjects/blizzard/test/TimeMetric.hpp
+/Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.hpp
 string
 -
 chrono
