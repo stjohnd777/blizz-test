@@ -6,22 +6,28 @@
 
 #IncludeRegexTransform: 
 
-/Users/overman/CLionProjects/blizzard/UniqueDigits.h
+/Users/overman/CLionProjects/blizzard/question1/UniqueDigits.cpp
+UniqueDigits.h
+/Users/overman/CLionProjects/blizzard/question1/UniqueDigits.h
+algorithm
+-
+iostream
+-
+array
+-
+set
+-
+
+/Users/overman/CLionProjects/blizzard/question1/UniqueDigits.h
 
 /Users/overman/CLionProjects/blizzard/test/TestUniqueDigits.cpp
 catch.hpp
 /Users/overman/CLionProjects/blizzard/test/catch.hpp
-../UniqueDigits.h
-/Users/overman/CLionProjects/blizzard/UniqueDigits.h
-TimeMetric.hpp
-/Users/overman/CLionProjects/blizzard/test/TimeMetric.hpp
+../question1/UniqueDigits.h
+/Users/overman/CLionProjects/blizzard/question1/UniqueDigits.h
+utils/TimeMetric.hpp
+/Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.hpp
 iostream
--
-
-/Users/overman/CLionProjects/blizzard/test/TimeMetric.hpp
-string
--
-chrono
 -
 
 /Users/overman/CLionProjects/blizzard/test/catch.hpp
@@ -606,5 +612,11 @@ ctime
 algorithm
 -
 cassert
+-
+
+/Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.hpp
+string
+-
+chrono
 -
 

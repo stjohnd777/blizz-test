@@ -4,8 +4,8 @@
 #define CATCH_CONFIG_MAIN
 
 #include "catch.hpp"
-#include "../DefinedSort.h"
-#include "TimeMetric.hpp"
+#include "../question2/DefinedSort.h"
+#include "utils/TimeMetric.hpp"
 
 #include <iostream>
 
@@ -36,3 +36,13 @@ TEST_CASE("Test Undefined", "[003]") {
     cout << inputStr << endl;
     REQUIRE(inputStr == "");
 }
+
+//
+//TEST_CASE("Test reverse", "[003]") {
+//    string inputStr ;
+//    string sortBy = "0123456789abcdefghijklmnopqrstuvwxyz";
+//    std::reverse(std::begin(sortBy), std::end(sortBy));
+//    SortLetters(inputStr, sortBy);
+//    cout << inputStr << endl;
+//    REQUIRE(inputStr == "");
+//}

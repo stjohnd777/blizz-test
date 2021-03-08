@@ -77,31 +77,31 @@ include test/CMakeFiles/Question1Test.dir/progress.make
 # Include the compile flags for this target's objects.
 include test/CMakeFiles/Question1Test.dir/flags.make
 
-test/CMakeFiles/Question1Test.dir/__/UniqueDigits.cpp.o: test/CMakeFiles/Question1Test.dir/flags.make
-test/CMakeFiles/Question1Test.dir/__/UniqueDigits.cpp.o: ../UniqueDigits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/overman/CLionProjects/blizzard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/Question1Test.dir/__/UniqueDigits.cpp.o"
-	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Question1Test.dir/__/UniqueDigits.cpp.o -c /Users/overman/CLionProjects/blizzard/UniqueDigits.cpp
+test/CMakeFiles/Question1Test.dir/__/question1/UniqueDigits.cpp.o: test/CMakeFiles/Question1Test.dir/flags.make
+test/CMakeFiles/Question1Test.dir/__/question1/UniqueDigits.cpp.o: ../question1/UniqueDigits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/overman/CLionProjects/blizzard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/Question1Test.dir/__/question1/UniqueDigits.cpp.o"
+	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Question1Test.dir/__/question1/UniqueDigits.cpp.o -c /Users/overman/CLionProjects/blizzard/question1/UniqueDigits.cpp
 
-test/CMakeFiles/Question1Test.dir/__/UniqueDigits.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Question1Test.dir/__/UniqueDigits.cpp.i"
-	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/overman/CLionProjects/blizzard/UniqueDigits.cpp > CMakeFiles/Question1Test.dir/__/UniqueDigits.cpp.i
+test/CMakeFiles/Question1Test.dir/__/question1/UniqueDigits.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Question1Test.dir/__/question1/UniqueDigits.cpp.i"
+	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/overman/CLionProjects/blizzard/question1/UniqueDigits.cpp > CMakeFiles/Question1Test.dir/__/question1/UniqueDigits.cpp.i
 
-test/CMakeFiles/Question1Test.dir/__/UniqueDigits.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Question1Test.dir/__/UniqueDigits.cpp.s"
-	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/overman/CLionProjects/blizzard/UniqueDigits.cpp -o CMakeFiles/Question1Test.dir/__/UniqueDigits.cpp.s
+test/CMakeFiles/Question1Test.dir/__/question1/UniqueDigits.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Question1Test.dir/__/question1/UniqueDigits.cpp.s"
+	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/overman/CLionProjects/blizzard/question1/UniqueDigits.cpp -o CMakeFiles/Question1Test.dir/__/question1/UniqueDigits.cpp.s
 
-test/CMakeFiles/Question1Test.dir/TimeMetric.cpp.o: test/CMakeFiles/Question1Test.dir/flags.make
-test/CMakeFiles/Question1Test.dir/TimeMetric.cpp.o: ../test/TimeMetric.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/overman/CLionProjects/blizzard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/Question1Test.dir/TimeMetric.cpp.o"
-	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Question1Test.dir/TimeMetric.cpp.o -c /Users/overman/CLionProjects/blizzard/test/TimeMetric.cpp
+test/CMakeFiles/Question1Test.dir/utils/TimeMetric.cpp.o: test/CMakeFiles/Question1Test.dir/flags.make
+test/CMakeFiles/Question1Test.dir/utils/TimeMetric.cpp.o: ../test/utils/TimeMetric.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/overman/CLionProjects/blizzard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/Question1Test.dir/utils/TimeMetric.cpp.o"
+	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Question1Test.dir/utils/TimeMetric.cpp.o -c /Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.cpp
 
-test/CMakeFiles/Question1Test.dir/TimeMetric.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Question1Test.dir/TimeMetric.cpp.i"
-	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/overman/CLionProjects/blizzard/test/TimeMetric.cpp > CMakeFiles/Question1Test.dir/TimeMetric.cpp.i
+test/CMakeFiles/Question1Test.dir/utils/TimeMetric.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Question1Test.dir/utils/TimeMetric.cpp.i"
+	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.cpp > CMakeFiles/Question1Test.dir/utils/TimeMetric.cpp.i
 
-test/CMakeFiles/Question1Test.dir/TimeMetric.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Question1Test.dir/TimeMetric.cpp.s"
-	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/overman/CLionProjects/blizzard/test/TimeMetric.cpp -o CMakeFiles/Question1Test.dir/TimeMetric.cpp.s
+test/CMakeFiles/Question1Test.dir/utils/TimeMetric.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Question1Test.dir/utils/TimeMetric.cpp.s"
+	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.cpp -o CMakeFiles/Question1Test.dir/utils/TimeMetric.cpp.s
 
 test/CMakeFiles/Question1Test.dir/TestUniqueDigits.cpp.o: test/CMakeFiles/Question1Test.dir/flags.make
 test/CMakeFiles/Question1Test.dir/TestUniqueDigits.cpp.o: ../test/TestUniqueDigits.cpp
@@ -118,15 +118,15 @@ test/CMakeFiles/Question1Test.dir/TestUniqueDigits.cpp.s: cmake_force
 
 # Object files for target Question1Test
 Question1Test_OBJECTS = \
-"CMakeFiles/Question1Test.dir/__/UniqueDigits.cpp.o" \
-"CMakeFiles/Question1Test.dir/TimeMetric.cpp.o" \
+"CMakeFiles/Question1Test.dir/__/question1/UniqueDigits.cpp.o" \
+"CMakeFiles/Question1Test.dir/utils/TimeMetric.cpp.o" \
 "CMakeFiles/Question1Test.dir/TestUniqueDigits.cpp.o"
 
 # External object files for target Question1Test
 Question1Test_EXTERNAL_OBJECTS =
 
-test/Question1Test: test/CMakeFiles/Question1Test.dir/__/UniqueDigits.cpp.o
-test/Question1Test: test/CMakeFiles/Question1Test.dir/TimeMetric.cpp.o
+test/Question1Test: test/CMakeFiles/Question1Test.dir/__/question1/UniqueDigits.cpp.o
+test/Question1Test: test/CMakeFiles/Question1Test.dir/utils/TimeMetric.cpp.o
 test/Question1Test: test/CMakeFiles/Question1Test.dir/TestUniqueDigits.cpp.o
 test/Question1Test: test/CMakeFiles/Question1Test.dir/build.make
 test/Question1Test: test/CMakeFiles/Question1Test.dir/link.txt

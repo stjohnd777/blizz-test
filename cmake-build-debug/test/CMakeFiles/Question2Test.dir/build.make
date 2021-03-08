@@ -77,18 +77,18 @@ include test/CMakeFiles/Question2Test.dir/progress.make
 # Include the compile flags for this target's objects.
 include test/CMakeFiles/Question2Test.dir/flags.make
 
-test/CMakeFiles/Question2Test.dir/TimeMetric.cpp.o: test/CMakeFiles/Question2Test.dir/flags.make
-test/CMakeFiles/Question2Test.dir/TimeMetric.cpp.o: ../test/TimeMetric.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/overman/CLionProjects/blizzard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/Question2Test.dir/TimeMetric.cpp.o"
-	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Question2Test.dir/TimeMetric.cpp.o -c /Users/overman/CLionProjects/blizzard/test/TimeMetric.cpp
+test/CMakeFiles/Question2Test.dir/utils/TimeMetric.cpp.o: test/CMakeFiles/Question2Test.dir/flags.make
+test/CMakeFiles/Question2Test.dir/utils/TimeMetric.cpp.o: ../test/utils/TimeMetric.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/overman/CLionProjects/blizzard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/Question2Test.dir/utils/TimeMetric.cpp.o"
+	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Question2Test.dir/utils/TimeMetric.cpp.o -c /Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.cpp
 
-test/CMakeFiles/Question2Test.dir/TimeMetric.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Question2Test.dir/TimeMetric.cpp.i"
-	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/overman/CLionProjects/blizzard/test/TimeMetric.cpp > CMakeFiles/Question2Test.dir/TimeMetric.cpp.i
+test/CMakeFiles/Question2Test.dir/utils/TimeMetric.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Question2Test.dir/utils/TimeMetric.cpp.i"
+	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.cpp > CMakeFiles/Question2Test.dir/utils/TimeMetric.cpp.i
 
-test/CMakeFiles/Question2Test.dir/TimeMetric.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Question2Test.dir/TimeMetric.cpp.s"
-	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/overman/CLionProjects/blizzard/test/TimeMetric.cpp -o CMakeFiles/Question2Test.dir/TimeMetric.cpp.s
+test/CMakeFiles/Question2Test.dir/utils/TimeMetric.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Question2Test.dir/utils/TimeMetric.cpp.s"
+	cd /Users/overman/CLionProjects/blizzard/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.cpp -o CMakeFiles/Question2Test.dir/utils/TimeMetric.cpp.s
 
 test/CMakeFiles/Question2Test.dir/TestDefinedSort.cpp.o: test/CMakeFiles/Question2Test.dir/flags.make
 test/CMakeFiles/Question2Test.dir/TestDefinedSort.cpp.o: ../test/TestDefinedSort.cpp
@@ -105,13 +105,13 @@ test/CMakeFiles/Question2Test.dir/TestDefinedSort.cpp.s: cmake_force
 
 # Object files for target Question2Test
 Question2Test_OBJECTS = \
-"CMakeFiles/Question2Test.dir/TimeMetric.cpp.o" \
+"CMakeFiles/Question2Test.dir/utils/TimeMetric.cpp.o" \
 "CMakeFiles/Question2Test.dir/TestDefinedSort.cpp.o"
 
 # External object files for target Question2Test
 Question2Test_EXTERNAL_OBJECTS =
 
-test/Question2Test: test/CMakeFiles/Question2Test.dir/TimeMetric.cpp.o
+test/Question2Test: test/CMakeFiles/Question2Test.dir/utils/TimeMetric.cpp.o
 test/Question2Test: test/CMakeFiles/Question2Test.dir/TestDefinedSort.cpp.o
 test/Question2Test: test/CMakeFiles/Question2Test.dir/build.make
 test/Question2Test: test/CMakeFiles/Question2Test.dir/link.txt

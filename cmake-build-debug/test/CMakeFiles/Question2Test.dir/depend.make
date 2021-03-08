@@ -3,9 +3,9 @@
 
 test/CMakeFiles/Question2Test.dir/TestDefinedSort.cpp.o: ../DefinedSort.h
 test/CMakeFiles/Question2Test.dir/TestDefinedSort.cpp.o: ../test/TestDefinedSort.cpp
-test/CMakeFiles/Question2Test.dir/TestDefinedSort.cpp.o: ../test/TimeMetric.hpp
 test/CMakeFiles/Question2Test.dir/TestDefinedSort.cpp.o: ../test/catch.hpp
+test/CMakeFiles/Question2Test.dir/TestDefinedSort.cpp.o: ../test/utils/TimeMetric.hpp
 
-test/CMakeFiles/Question2Test.dir/TimeMetric.cpp.o: ../test/TimeMetric.cpp
-test/CMakeFiles/Question2Test.dir/TimeMetric.cpp.o: ../test/TimeMetric.hpp
+test/CMakeFiles/Question2Test.dir/utils/TimeMetric.cpp.o: ../test/utils/TimeMetric.cpp
+test/CMakeFiles/Question2Test.dir/utils/TimeMetric.cpp.o: ../test/utils/TimeMetric.hpp
 

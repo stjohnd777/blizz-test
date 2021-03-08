@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/blizzard.dir/UniqueDigits.cpp.o"
   "CMakeFiles/blizzard.dir/main.cpp.o"
-  "CMakeFiles/blizzard.dir/test/TimeMetric.cpp.o"
+  "CMakeFiles/blizzard.dir/question1/UniqueDigits.cpp.o"
+  "CMakeFiles/blizzard.dir/test/utils/TimeMetric.cpp.o"
   "blizzard"
   "blizzard.pdb"
 )

@@ -4,8 +4,8 @@
 #define CATCH_CONFIG_MAIN
 
 #include "catch.hpp"
-#include "../UniqueDigits.h"
-#include "TimeMetric.hpp"
+#include "../question1/UniqueDigits.h"
+#include "utils/TimeMetric.hpp"
 
 #include <iostream>
 

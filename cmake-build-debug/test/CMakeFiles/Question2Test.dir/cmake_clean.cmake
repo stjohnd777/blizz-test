@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Question2Test.dir/TestDefinedSort.cpp.o"
-  "CMakeFiles/Question2Test.dir/TimeMetric.cpp.o"
+  "CMakeFiles/Question2Test.dir/utils/TimeMetric.cpp.o"
   "Question2Test"
   "Question2Test.pdb"
 )

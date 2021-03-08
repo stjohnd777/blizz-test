@@ -17,15 +17,9 @@ catch.hpp
 /Users/overman/CLionProjects/blizzard/test/catch.hpp
 ../DefinedSort.h
 /Users/overman/CLionProjects/blizzard/DefinedSort.h
-TimeMetric.hpp
-/Users/overman/CLionProjects/blizzard/test/TimeMetric.hpp
+utils/TimeMetric.hpp
+/Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.hpp
 iostream
--
-
-/Users/overman/CLionProjects/blizzard/test/TimeMetric.hpp
-string
--
-chrono
 -
 
 /Users/overman/CLionProjects/blizzard/test/catch.hpp
@@ -610,5 +604,23 @@ ctime
 algorithm
 -
 cassert
+-
+
+/Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.cpp
+TimeMetric.hpp
+/Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.hpp
+vector
+-
+map
+-
+chrono
+-
+algorithm
+-
+
+/Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.hpp
+string
+-
+chrono
 -
 

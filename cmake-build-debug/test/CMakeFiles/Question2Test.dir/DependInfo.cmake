@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/overman/CLionProjects/blizzard/test/TestDefinedSort.cpp" "/Users/overman/CLionProjects/blizzard/cmake-build-debug/test/CMakeFiles/Question2Test.dir/TestDefinedSort.cpp.o"
-  "/Users/overman/CLionProjects/blizzard/test/TimeMetric.cpp" "/Users/overman/CLionProjects/blizzard/cmake-build-debug/test/CMakeFiles/Question2Test.dir/TimeMetric.cpp.o"
+  "/Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.cpp" "/Users/overman/CLionProjects/blizzard/cmake-build-debug/test/CMakeFiles/Question2Test.dir/utils/TimeMetric.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

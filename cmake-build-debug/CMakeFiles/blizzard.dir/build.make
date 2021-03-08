@@ -77,31 +77,31 @@ include CMakeFiles/blizzard.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/blizzard.dir/flags.make
 
-CMakeFiles/blizzard.dir/UniqueDigits.cpp.o: CMakeFiles/blizzard.dir/flags.make
-CMakeFiles/blizzard.dir/UniqueDigits.cpp.o: ../UniqueDigits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/overman/CLionProjects/blizzard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/blizzard.dir/UniqueDigits.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/blizzard.dir/UniqueDigits.cpp.o -c /Users/overman/CLionProjects/blizzard/UniqueDigits.cpp
+CMakeFiles/blizzard.dir/question1/UniqueDigits.cpp.o: CMakeFiles/blizzard.dir/flags.make
+CMakeFiles/blizzard.dir/question1/UniqueDigits.cpp.o: ../question1/UniqueDigits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/overman/CLionProjects/blizzard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/blizzard.dir/question1/UniqueDigits.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/blizzard.dir/question1/UniqueDigits.cpp.o -c /Users/overman/CLionProjects/blizzard/question1/UniqueDigits.cpp
 
-CMakeFiles/blizzard.dir/UniqueDigits.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/blizzard.dir/UniqueDigits.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/overman/CLionProjects/blizzard/UniqueDigits.cpp > CMakeFiles/blizzard.dir/UniqueDigits.cpp.i
+CMakeFiles/blizzard.dir/question1/UniqueDigits.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/blizzard.dir/question1/UniqueDigits.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/overman/CLionProjects/blizzard/question1/UniqueDigits.cpp > CMakeFiles/blizzard.dir/question1/UniqueDigits.cpp.i
 
-CMakeFiles/blizzard.dir/UniqueDigits.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/blizzard.dir/UniqueDigits.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/overman/CLionProjects/blizzard/UniqueDigits.cpp -o CMakeFiles/blizzard.dir/UniqueDigits.cpp.s
+CMakeFiles/blizzard.dir/question1/UniqueDigits.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/blizzard.dir/question1/UniqueDigits.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/overman/CLionProjects/blizzard/question1/UniqueDigits.cpp -o CMakeFiles/blizzard.dir/question1/UniqueDigits.cpp.s
 
-CMakeFiles/blizzard.dir/test/TimeMetric.cpp.o: CMakeFiles/blizzard.dir/flags.make
-CMakeFiles/blizzard.dir/test/TimeMetric.cpp.o: ../test/TimeMetric.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/overman/CLionProjects/blizzard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/blizzard.dir/test/TimeMetric.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/blizzard.dir/test/TimeMetric.cpp.o -c /Users/overman/CLionProjects/blizzard/test/TimeMetric.cpp
+CMakeFiles/blizzard.dir/test/utils/TimeMetric.cpp.o: CMakeFiles/blizzard.dir/flags.make
+CMakeFiles/blizzard.dir/test/utils/TimeMetric.cpp.o: ../test/utils/TimeMetric.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/overman/CLionProjects/blizzard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/blizzard.dir/test/utils/TimeMetric.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/blizzard.dir/test/utils/TimeMetric.cpp.o -c /Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.cpp
 
-CMakeFiles/blizzard.dir/test/TimeMetric.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/blizzard.dir/test/TimeMetric.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/overman/CLionProjects/blizzard/test/TimeMetric.cpp > CMakeFiles/blizzard.dir/test/TimeMetric.cpp.i
+CMakeFiles/blizzard.dir/test/utils/TimeMetric.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/blizzard.dir/test/utils/TimeMetric.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.cpp > CMakeFiles/blizzard.dir/test/utils/TimeMetric.cpp.i
 
-CMakeFiles/blizzard.dir/test/TimeMetric.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/blizzard.dir/test/TimeMetric.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/overman/CLionProjects/blizzard/test/TimeMetric.cpp -o CMakeFiles/blizzard.dir/test/TimeMetric.cpp.s
+CMakeFiles/blizzard.dir/test/utils/TimeMetric.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/blizzard.dir/test/utils/TimeMetric.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.cpp -o CMakeFiles/blizzard.dir/test/utils/TimeMetric.cpp.s
 
 CMakeFiles/blizzard.dir/main.cpp.o: CMakeFiles/blizzard.dir/flags.make
 CMakeFiles/blizzard.dir/main.cpp.o: ../main.cpp
@@ -118,15 +118,15 @@ CMakeFiles/blizzard.dir/main.cpp.s: cmake_force
 
 # Object files for target blizzard
 blizzard_OBJECTS = \
-"CMakeFiles/blizzard.dir/UniqueDigits.cpp.o" \
-"CMakeFiles/blizzard.dir/test/TimeMetric.cpp.o" \
+"CMakeFiles/blizzard.dir/question1/UniqueDigits.cpp.o" \
+"CMakeFiles/blizzard.dir/test/utils/TimeMetric.cpp.o" \
 "CMakeFiles/blizzard.dir/main.cpp.o"
 
 # External object files for target blizzard
 blizzard_EXTERNAL_OBJECTS =
 
-blizzard: CMakeFiles/blizzard.dir/UniqueDigits.cpp.o
-blizzard: CMakeFiles/blizzard.dir/test/TimeMetric.cpp.o
+blizzard: CMakeFiles/blizzard.dir/question1/UniqueDigits.cpp.o
+blizzard: CMakeFiles/blizzard.dir/test/utils/TimeMetric.cpp.o
 blizzard: CMakeFiles/blizzard.dir/main.cpp.o
 blizzard: CMakeFiles/blizzard.dir/build.make
 blizzard: CMakeFiles/blizzard.dir/link.txt

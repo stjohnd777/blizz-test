@@ -9,9 +9,8 @@
     - The reader should be able to use any IDE with CMake to run the unit test.
 ---
 
-#### Hearthstone Engineering Test
+- #### Hearthstone Engineering Test
     - Send your solutions as source files attached in email.  
-    
     - Use  C++ or C#
     - Any relational database can be used.
     - There is no set time limit, but know the approximate amount of time you spent on the test. 
@@ -26,11 +25,6 @@
     - Readable
     - Efficient
 ---
-#####Looking at the assigment parts how to respond with email attachments requires some attention. 
-- (files named question1.h, question1.cpp, test_question1.cpp in a zipfile question1.zip )
-- (files named question12h, question2.cpp, test_question2.cpp in a zipfile question2.zip )
-- (files named 3a.txt, 3b.txt, 3c1.txt, 3c2.a.txt and 3c2.b.txt a zipfile question3.zip )
-
 - 1 Unique Digits  
 - 2 Sort            
 - 3 Database        
@@ -47,13 +41,15 @@
 
 ---
 
-#### Question 1
+#### Question 1  Unique Digits
+ 
 - Write a function that takes an unsigned integer as input and returns true if all the digits in the base 10 representation of that number are unique. 
 
     - Example:
         - AllDigitsUnique(48778584) returns false
         - AllDigitsUnique(17308459) returns true
 --- 
+ 
 #### Answer 
 
    - I created two implementations. 
@@ -168,10 +164,11 @@ TEST_CASE("IsUniqueDigits  DivMod ", "[021]") {
 ```
 
 --- 
-#### Question 2  
-- Write a function that modifies an input string, sorting the letters according to a sort order defined by a second string. 
-- You may assume that every character in the input string also appears somewhere in the sort order string. 
-- Make your function as fast as possible for long input strings.
+#### Question 2 Sort
+ - Write a function that modifies an input string, sorting the letters according to a sort order defined by a second string. You may assume that every character in the input string also appears somewhere in the sort order string. Make your function as fast as possible for long input strings.
+    
+    - assume that every character in the input string also appears somewhere in the sort order string. 
+    - fast as possible for long input strings.
 
 - #### Example:
   - SortLetters(inputStr, “ isetlgornh”)
@@ -228,8 +225,8 @@ TEST_CASE("Test 1 SortBy(` isetlgornh`)", "[001]") {
 #### Question 3 Database Design.
 
 ##### 3a. Create card definition tables.
--	Refer to all “Hearthstone’s Standard” cards list below
-- https://playhearthstone.com/en-us/cards?set=standard&viewMode=table to design relational database table(s). 
+- Refer to all “Hearthstone’s Standard” cards list below to design relational database table(s).
+    - https://playhearthstone.com/en-us/cards?set=standard&viewMode=table  
 - You only need to consider card attributes shown from the card list.
     - Class
     - Mana
@@ -240,7 +237,7 @@ TEST_CASE("Test 1 SortBy(` isetlgornh`)", "[001]") {
     - Minion Type
     - Keywords
 ---
-#### Answer is to Create a card_definition Table
+##### Answer is to Create a card_definition Table
     - Remark
         - In real setting I would have a reference table for the class, type, rarity, minion type, and keywords. 
         - In fact I did initially but back off on this to keep queries simple
@@ -424,8 +421,5 @@ select  avg(time_deleted-created) from player_deck where card_id = 3005
  1666908.0000|
  
 
- 
- 
 
-          
           

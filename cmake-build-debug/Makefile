@@ -169,33 +169,6 @@ Question1Test/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Question1Test.dir/build.make test/CMakeFiles/Question1Test.dir/build
 .PHONY : Question1Test/fast
 
-UniqueDigits.o: UniqueDigits.cpp.o
-
-.PHONY : UniqueDigits.o
-
-# target to build an object file
-UniqueDigits.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blizzard.dir/build.make CMakeFiles/blizzard.dir/UniqueDigits.cpp.o
-.PHONY : UniqueDigits.cpp.o
-
-UniqueDigits.i: UniqueDigits.cpp.i
-
-.PHONY : UniqueDigits.i
-
-# target to preprocess a source file
-UniqueDigits.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blizzard.dir/build.make CMakeFiles/blizzard.dir/UniqueDigits.cpp.i
-.PHONY : UniqueDigits.cpp.i
-
-UniqueDigits.s: UniqueDigits.cpp.s
-
-.PHONY : UniqueDigits.s
-
-# target to generate assembly for a file
-UniqueDigits.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blizzard.dir/build.make CMakeFiles/blizzard.dir/UniqueDigits.cpp.s
-.PHONY : UniqueDigits.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -223,32 +196,59 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blizzard.dir/build.make CMakeFiles/blizzard.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-test/TimeMetric.o: test/TimeMetric.cpp.o
+question1/UniqueDigits.o: question1/UniqueDigits.cpp.o
 
-.PHONY : test/TimeMetric.o
+.PHONY : question1/UniqueDigits.o
 
 # target to build an object file
-test/TimeMetric.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blizzard.dir/build.make CMakeFiles/blizzard.dir/test/TimeMetric.cpp.o
-.PHONY : test/TimeMetric.cpp.o
+question1/UniqueDigits.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blizzard.dir/build.make CMakeFiles/blizzard.dir/question1/UniqueDigits.cpp.o
+.PHONY : question1/UniqueDigits.cpp.o
 
-test/TimeMetric.i: test/TimeMetric.cpp.i
+question1/UniqueDigits.i: question1/UniqueDigits.cpp.i
 
-.PHONY : test/TimeMetric.i
+.PHONY : question1/UniqueDigits.i
 
 # target to preprocess a source file
-test/TimeMetric.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blizzard.dir/build.make CMakeFiles/blizzard.dir/test/TimeMetric.cpp.i
-.PHONY : test/TimeMetric.cpp.i
+question1/UniqueDigits.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blizzard.dir/build.make CMakeFiles/blizzard.dir/question1/UniqueDigits.cpp.i
+.PHONY : question1/UniqueDigits.cpp.i
 
-test/TimeMetric.s: test/TimeMetric.cpp.s
+question1/UniqueDigits.s: question1/UniqueDigits.cpp.s
 
-.PHONY : test/TimeMetric.s
+.PHONY : question1/UniqueDigits.s
 
 # target to generate assembly for a file
-test/TimeMetric.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blizzard.dir/build.make CMakeFiles/blizzard.dir/test/TimeMetric.cpp.s
-.PHONY : test/TimeMetric.cpp.s
+question1/UniqueDigits.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blizzard.dir/build.make CMakeFiles/blizzard.dir/question1/UniqueDigits.cpp.s
+.PHONY : question1/UniqueDigits.cpp.s
+
+test/utils/TimeMetric.o: test/utils/TimeMetric.cpp.o
+
+.PHONY : test/utils/TimeMetric.o
+
+# target to build an object file
+test/utils/TimeMetric.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blizzard.dir/build.make CMakeFiles/blizzard.dir/test/utils/TimeMetric.cpp.o
+.PHONY : test/utils/TimeMetric.cpp.o
+
+test/utils/TimeMetric.i: test/utils/TimeMetric.cpp.i
+
+.PHONY : test/utils/TimeMetric.i
+
+# target to preprocess a source file
+test/utils/TimeMetric.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blizzard.dir/build.make CMakeFiles/blizzard.dir/test/utils/TimeMetric.cpp.i
+.PHONY : test/utils/TimeMetric.cpp.i
+
+test/utils/TimeMetric.s: test/utils/TimeMetric.cpp.s
+
+.PHONY : test/utils/TimeMetric.s
+
+# target to generate assembly for a file
+test/utils/TimeMetric.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blizzard.dir/build.make CMakeFiles/blizzard.dir/test/utils/TimeMetric.cpp.s
+.PHONY : test/utils/TimeMetric.cpp.s
 
 # Help Target
 help:
@@ -261,15 +261,15 @@ help:
 	@echo "... Question1Test"
 	@echo "... Question2Test"
 	@echo "... blizzard"
-	@echo "... UniqueDigits.o"
-	@echo "... UniqueDigits.i"
-	@echo "... UniqueDigits.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... test/TimeMetric.o"
-	@echo "... test/TimeMetric.i"
-	@echo "... test/TimeMetric.s"
+	@echo "... question1/UniqueDigits.o"
+	@echo "... question1/UniqueDigits.i"
+	@echo "... question1/UniqueDigits.s"
+	@echo "... test/utils/TimeMetric.o"
+	@echo "... test/utils/TimeMetric.i"
+	@echo "... test/utils/TimeMetric.s"
 .PHONY : help
 
 

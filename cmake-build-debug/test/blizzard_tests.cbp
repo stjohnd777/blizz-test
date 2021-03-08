@@ -102,14 +102,14 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/overman/CLionProjects/blizzard/DefinedSort.h">
+		<Unit filename="/Users/overman/CLionProjects/blizzard/question1/UniqueDigits.cpp">
+			<Option target="Question1Test"/>
+		</Unit>
+		<Unit filename="/Users/overman/CLionProjects/blizzard/question1/UniqueDigits.h">
+			<Option target="Question1Test"/>
+		</Unit>
+		<Unit filename="/Users/overman/CLionProjects/blizzard/question2/DefinedSort.h">
 			<Option target="Question2Test"/>
-		</Unit>
-		<Unit filename="/Users/overman/CLionProjects/blizzard/UniqueDigits.cpp">
-			<Option target="Question1Test"/>
-		</Unit>
-		<Unit filename="/Users/overman/CLionProjects/blizzard/UniqueDigits.h">
-			<Option target="Question1Test"/>
 		</Unit>
 		<Unit filename="/Users/overman/CLionProjects/blizzard/test/TestDefinedSort.cpp">
 			<Option target="Question2Test"/>
@@ -117,15 +117,15 @@
 		<Unit filename="/Users/overman/CLionProjects/blizzard/test/TestUniqueDigits.cpp">
 			<Option target="Question1Test"/>
 		</Unit>
-		<Unit filename="/Users/overman/CLionProjects/blizzard/test/TimeMetric.cpp">
-			<Option target="Question2Test"/>
-			<Option target="Question1Test"/>
-		</Unit>
-		<Unit filename="/Users/overman/CLionProjects/blizzard/test/TimeMetric.hpp">
-			<Option target="Question2Test"/>
-			<Option target="Question1Test"/>
-		</Unit>
 		<Unit filename="/Users/overman/CLionProjects/blizzard/test/catch.hpp">
+			<Option target="Question2Test"/>
+			<Option target="Question1Test"/>
+		</Unit>
+		<Unit filename="/Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.cpp">
+			<Option target="Question2Test"/>
+			<Option target="Question1Test"/>
+		</Unit>
+		<Unit filename="/Users/overman/CLionProjects/blizzard/test/utils/TimeMetric.hpp">
 			<Option target="Question2Test"/>
 			<Option target="Question1Test"/>
 		</Unit>
